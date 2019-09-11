@@ -1,4 +1,4 @@
-# Hack Club's DNS [![CircleCI](https://circleci.com/gh/hackclub/dns.svg?style=svg)](https://circleci.com/gh/hackclub/dns)
+# .eaya DNS [![CircleCI](https://circleci.com/gh/hackclub/dns.svg?style=svg)](https://circleci.com/gh/hackclub/dns)
 
 Free domains available to EAYA Scholars, Faculty, classes and clubs. Brought to you by the fine folks at the EAYA Hack Club.
 
