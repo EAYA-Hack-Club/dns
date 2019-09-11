@@ -3,39 +3,14 @@ providers:
   config:
     class: octodns.provider.yaml.YamlProvider
     directory: ./
-  dnsimple:
-    class: octodns.provider.dnsimple.DnsimpleProvider
-    token: env/DNSIMPLE_API_KEY
-    account: env/DNSIMPLE_ACCOUNT_NUMBER
+  cloudflare:
+    class: octodns.provider.cloudflare.CloudflareProvider
+    email: zach@hackclub.com
+    token: env/CLOUDFLARE_API_KEY
 
 zones:
-  hackclub.com.:
+  eaya.io.:
     sources:
       - config
     targets:
-      - dnsimple
-  hackclub.io.:
-    sources:
-      - config
-    targets:
-      - dnsimple
-  hackedu.us.:
-    sources:
-      - config
-    targets:
-      - dnsimple
-  hack.af.:
-    sources:
-      - config
-    targets:
-      - dnsimple
-  bulckcah.com.:
-    sources:
-      - config
-    targets:
-      - dnsimple
-  hackchicago.io.:
-    sources:
-      - config
-    targets:
-      - dnsimple
+      - cloudflare
