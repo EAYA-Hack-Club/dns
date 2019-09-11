@@ -23,14 +23,6 @@
     type: TXT
     value: v=spf1 include:spf.efwd.registrar-servers.com ~all
 
-_test_wp_bensites:
-  octodns:
-    cloudflare:
-      proxied: false
-  ttl: 1
-  type: CNAME
-  value: wp.bensites.com.
-
 hackclub:
   octodns:
     cloudflare:
