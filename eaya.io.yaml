@@ -1,17 +1,17 @@
 ---
 '':
 - type: ALIAS
-  value: eaya-hack-club.github.io
+  value: eaya-hack-club.github.io.
 - ttl: 1
   type: MX
   values:
-  - exchange: eforward2.registrar-servers.com
+  - exchange: eforward2.registrar-servers.com.
     preference: 10
-  - exchange: eforward3.registrar-servers.com
+  - exchange: eforward3.registrar-servers.com.
     preference: 10
-  - exchange: eforward4.registrar-servers.com
+  - exchange: eforward4.registrar-servers.com.
     preference: 15
-  - exchange: eforward5.registrar-servers.com
+  - exchange: eforward5.registrar-servers.com.
     preference: 25
 - ttl: 1
   type: TXT
@@ -20,8 +20,8 @@
 hackclub:
 - ttl: 1
   type: CNAME
-  value: eaya-hack-club.github.io
+  value: eaya-hack-club.github.io.
 www:
 - ttl: 1
   type: CNAME
-  value: eaya-hack-club.github.io
+  value: eaya-hack-club.github.io.
