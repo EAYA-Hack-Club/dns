@@ -1,27 +1,38 @@
 ---
-'':
-- type: ALIAS
-  value: eaya-hack-club.github.io.
-- ttl: 1
-  type: MX
-  values:
-  - exchange: eforward2.registrar-servers.com.
-    preference: 10
-  - exchange: eforward3.registrar-servers.com.
-    preference: 10
-  - exchange: eforward4.registrar-servers.com.
-    preference: 15
-  - exchange: eforward5.registrar-servers.com.
-    preference: 25
-- ttl: 1
-  type: TXT
-  values:
-  - v=spf1 include:spf.efwd.registrar-servers.com ~all
+? ''
+: - octodns:
+      cloudflare:
+        proxied: false
+    ttl: 1
+    type: ALIAS
+    value: eaya-hack-club.github.io.
+  - ttl: 1
+    type: MX
+    values:
+    - exchange: eforward1.registrar-servers.com.
+      preference: 10
+    - exchange: eforward2.registrar-servers.com.
+      preference: 10
+    - exchange: eforward3.registrar-servers.com.
+      preference: 10
+    - exchange: eforward4.registrar-servers.com.
+      preference: 15
+    - exchange: eforward5.registrar-servers.com.
+      preference: 20
+  - ttl: 1
+    type: TXT
+    value: v=spf1 include:spf.efwd.registrar-servers.com ~all
 hackclub:
-- ttl: 1
+  octodns:
+    cloudflare:
+      proxied: false
+  ttl: 1
   type: CNAME
   value: eaya-hack-club.github.io.
 www:
-- ttl: 1
+  octodns:
+    cloudflare:
+      proxied: false
+  ttl: 1
   type: CNAME
   value: eaya-hack-club.github.io.
