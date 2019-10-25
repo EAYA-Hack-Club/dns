@@ -24,8 +24,8 @@
     value: v=spf1 include:spf.efwd.registrar-servers.com ~all
 
 _acme-challenge:
-  type: TXT
   ttl: 1
+  type: TXT
   value: cuh77WEBO0s5tGENa8r0xC1G7UEYx3mNLfjh0GOTXZ0
 
 hackclub:
