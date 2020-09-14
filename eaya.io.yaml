@@ -35,13 +35,6 @@ hackclub:
   ttl: 1
   type: CNAME
   value: eaya-hack-club.github.io.
-minecraft:
-  octodns:
-    cloudflare:
-      proxied: true
-  ttl: 1
-  type: A
-  value: 104.156.237.210
 www:
   octodns:
     cloudflare:
